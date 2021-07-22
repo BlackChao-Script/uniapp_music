@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "uni-transition": "/uni_modules/uni-transition/components/uni-transition/uni-transition",
+    "search": "/component/index/search",
+    "recommend": "/component/index/recommend",
+    "popula-song-list": "/component/index/populaSongList",
+    "gw-audiott": "/component/video/gw-audiott/gw-audiott"
+  }
+}

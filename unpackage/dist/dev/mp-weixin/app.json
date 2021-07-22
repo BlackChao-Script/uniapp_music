@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/video/video",
+    "pages/searchdetailed/searchdetailed",
+    "pages/searchlists/searchlists",
+    "pages/newmusics/newmusics",
+    "pages/songlist/songlist",
+    "pages/songlistdetailed/songlistdetailed",
+    "pages/videodetailed/videodetailed"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "云音乐",
+    "navigationBarBackgroundColor": "#fbe8e7"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#fbe8e7",
+    "borderStyle": "white",
+    "backgroundColor": "#ffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/music.png",
+        "selectedIconPath": "static/image/music1.png",
+        "text": "音乐"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "static/image/video.png",
+        "selectedIconPath": "static/image/video1.png",
+        "text": "视频"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

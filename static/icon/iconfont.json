@@ -1,0 +1,65 @@
+{
+  "id": "2686365",
+  "name": "music",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8996370",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "8682913",
+      "name": "返 回",
+      "font_class": "fanhui1-copy-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "18921178",
+      "name": "分 享",
+      "font_class": "fenxiang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "17719738",
+      "name": "标记",
+      "font_class": "biaoji",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "17719742",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "17719753",
+      "name": "显示",
+      "font_class": "xianshi",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "17719757",
+      "name": "音乐符号2",
+      "font_class": "yinlefuhao2",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "17719764",
+      "name": "音乐音谱",
+      "font_class": "yinleyinpu",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    }
+  ]
+}

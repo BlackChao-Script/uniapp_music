@@ -1,0 +1,54 @@
+.populaSongList {
+  margin-top: 30rpx;
+  margin-bottom: 170rpx;
+}
+.populaSongList .populaSongList_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 25rpx;
+}
+.populaSongList .populaSongList_title .title_name {
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.populaSongList .populaSongList_title .title_more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 25rpx;
+  color: #ccc;
+}
+.populaSongList swiper-item {
+  width: 750rpx;
+  height: 300rpx;
+}
+.populaSongList swiper-item .swiper-item .item_pic {
+  position: relative;
+}
+.populaSongList swiper-item .swiper-item .item_pic image {
+  width: 90%;
+  border-radius: 20rpx;
+}
+.populaSongList swiper-item .swiper-item .item_pic .item_playCount {
+  position: absolute;
+  bottom: 10rpx;
+  right: 30rpx;
+  font-size: 25rpx;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10rpx;
+  color: #fff;
+}
+.populaSongList swiper-item .swiper-item .item_name {
+  font-size: 25rpx;
+}
+

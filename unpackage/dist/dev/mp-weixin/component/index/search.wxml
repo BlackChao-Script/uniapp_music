@@ -1,0 +1,1 @@
+<view class="search"><navigator url="../searchdetailed/searchdetailed"><view class="search_content"><view class="search_icon iconfont icon-sousuo"></view><view class="search_text">搜索</view></view></navigator></view>

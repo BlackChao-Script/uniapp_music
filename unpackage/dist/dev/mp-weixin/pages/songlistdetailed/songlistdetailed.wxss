@@ -1,0 +1,95 @@
+.songlistdetailed {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fcf5ee), to(#ffc4d0));
+  background-image: -webkit-linear-gradient(bottom, #fcf5ee 0%, #ffc4d0 100%);
+  background-image: linear-gradient(to top, #fcf5ee 0%, #ffc4d0 100%);
+}
+.songlistdetailed .songlistdetailed_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 400rpx;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffc4d0), to(#fbe8e7));
+  background-image: -webkit-linear-gradient(bottom, #ffc4d0 0%, #fbe8e7 100%);
+  background-image: linear-gradient(to top, #ffc4d0 0%, #fbe8e7 100%);
+}
+.songlistdetailed .songlistdetailed_title .title_pic {
+  position: relative;
+  margin-left: 20rpx;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.songlistdetailed .songlistdetailed_title .title_pic image {
+  width: 100%;
+  border-radius: 20rpx;
+}
+.songlistdetailed .songlistdetailed_title .title_pic .item_playCount {
+  position: absolute;
+  bottom: 20rpx;
+  right: 10rpx;
+  color: #fff;
+  font-size: 25rpx;
+  border-radius: 20rpx;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.songlistdetailed .songlistdetailed_title .title_names {
+  margin-left: 20rpx;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.songlistdetailed .songlistdetailed_title .title_names .names_title {
+  margin-bottom: 40rpx;
+  font-weight: 600;
+}
+.songlistdetailed .songlistdetailed_title .title_names .names_name {
+  font-size: 28rpx;
+}
+.songlistdetailed .songlistdetailed_list {
+  height: 100rpx;
+  margin: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.songlistdetailed .songlistdetailed_list .list_index {
+  -webkit-box-flex: 0.5;
+  -webkit-flex: 0.5;
+          flex: 0.5;
+  margin-left: 20rpx;
+}
+.songlistdetailed .songlistdetailed_list .title_names {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+          flex: 4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.songlistdetailed .songlistdetailed_list .title_names .names_user {
+  color: #ccc;
+}
+

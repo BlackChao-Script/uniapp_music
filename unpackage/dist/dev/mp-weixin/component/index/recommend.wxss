@@ -1,0 +1,81 @@
+.recommend {
+  margin-left: 20rpx;
+}
+.recommend .recommend_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 5rpx;
+}
+.recommend .recommend_title .title_name {
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.recommend .recommend_title .title_more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 25rpx;
+  color: #ccc;
+}
+.recommend .recommend_list {
+  margin-top: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.recommend .recommend_list .list_pic {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.recommend .recommend_list .list_pic image {
+  width: 80%;
+  border-radius: 20rpx;
+}
+.recommend .recommend_list .list_name {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.recommend .recommend_list .list_name .name_a {
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.recommend .recommend_list .list_name .name_b {
+  margin-top: 40rpx;
+  color: #adadad;
+  font-size: 28rpx;
+}
+.recommend .recommend_list .list_icon {
+  -webkit-box-flex: 0.5;
+  -webkit-flex: 0.5;
+          flex: 0.5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #adadad;
+}
+

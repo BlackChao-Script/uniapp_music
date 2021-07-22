@@ -1,0 +1,17 @@
+.newmusics .newmusic_title {
+  padding: 20rpx;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.newmusics .newmusics_list {
+  margin-top: 10rpx;
+  padding: 20rpx;
+}
+.newmusics .newmusics_list .list_name {
+  font-size: 25rpx;
+}
+.newmusics .newmusics_list .list_title {
+  font-size: 20rpx;
+  color: #ccc;
+}
+

@@ -1,0 +1,1 @@
+.hotsearch{padding:20rpx}.hotsearch .hotsearch_title{font-size:35rpx;font-weight:600}.hotsearch .hotsearch_list{float:left;margin:15rpx}.suggest .suggest_title{color:#ffc4d0}.suggest .suggest_list{padding:20rpx}

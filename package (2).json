@@ -1,0 +1,13 @@
+{
+    "id": "gw-audiott",
+    "name": "音频播放器gw-audiott",
+    "version": "1.0.3",
+    "description": "音频播放器插件，可展示播放状态、拖动进度、自动播放，文字和音频联动，支持文字搜索",
+    "keywords": [
+        "audio",
+        "播放器",
+        "音频播放器",
+        "微信小程序音频播放器",
+        "innerAudioContext"
+    ]
+}

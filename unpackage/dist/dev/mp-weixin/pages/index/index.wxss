@@ -1,0 +1,16 @@
+.container .content_kaiguan {
+  position: fixed;
+  bottom: 200rpx;
+  right: 50rpx;
+  font-size: 45rpx;
+  color: #ffaef5;
+}
+.container swiper {
+  width: 750rpx;
+  height: 300rpx;
+}
+.container swiper image {
+  height: 100%;
+  width: 100%;
+}
+
