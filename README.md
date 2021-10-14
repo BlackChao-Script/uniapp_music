@@ -1,46 +1,36 @@
-# 云音乐开发
+# 云音乐小程序开发
 
-**前端技术栈:**
+用uniapp框架制作的一款小型在线播放器
 
-> vue2全家桶 + ElementUI
+**功能:**
 
-**后端接口主要来源于：**
+- 常见的搜索功能
+- 在线播放
+- 视频
 
-> GitHub开源接口https://github.com/Binaryify/NeteaseCloudMusicApi
+**部分页面**:
 
-**功能**：
+主页:
 
-- 登录后可查看自己歌单
-- 在线播放音频
-- 搜索歌曲
-- 播放记录
-- 动态歌碟
-- 滚动歌词
-- 排行榜
-- ....
+![](https://www.hualigs.cn/image/6167cdaad55d3.jpg)
 
-**页面**：本项目总共包含13个页面
+搜索：
 
-**难点**：歌词随着歌曲平滑同步移动
+![](https://www.hualigs.cn/image/6167cdc5a16f5.jpg)
 
-**部分页面**：
+歌单详细:
 
-个性推荐:
-
-![](https://www.hualigs.cn/image/61678a6feb50b.jpg)
-
-歌单:
-
-![](https://www.hualigs.cn/image/61678ab2edee9.jpg)
-
-主播电台:
-
-![](https://www.hualigs.cn/image/61678b274dfb8.jpg)
-
-歌曲详细:
-
-![](https://www.hualigs.cn/image/61678bb32f5ff.jpg)
+![](https://www.hualigs.cn/image/6167cddb01b1b.jpg)
 
 视频:
 
-![](https://www.hualigs.cn/image/61678be338ccf.jpg)
+![](https://www.hualigs.cn/image/6167ce679a864.jpg)
+
+MV：
+
+![](https://www.hualigs.cn/image/6167ceb6bacf8.jpg)
+
+播放详细:
+
+![](https://www.hualigs.cn/image/6167cef971413.jpg)
+
