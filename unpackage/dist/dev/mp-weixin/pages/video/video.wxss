@@ -2,13 +2,9 @@
   margin-bottom: 50rpx;
 }
 .content_playlists {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-          justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .content_playlists .playlists_list {
   margin-top: 20rpx;

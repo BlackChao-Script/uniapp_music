@@ -8,7 +8,8 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.createApp = createApp;exports.createComponent = createComponent;exports.createPage = createPage;exports.createPlugin = createPlugin;exports.createSubpackageApp = createSubpackageApp;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}
+Object.defineProperty(exports, "__esModule", { value: true });exports.createApp = createApp;exports.createComponent = createComponent;exports.createPage = createPage;exports.createPlugin = createPlugin;exports.createSubpackageApp = createSubpackageApp;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _uniI18n = __webpack_require__(/*! @dcloudio/uni-i18n */ 4);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _iterableToArray(iter) {if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) return _arrayLikeToArray(arr);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}
 
 function b64DecodeUnicode(str) {
   return decodeURIComponent(atob(str).split('').map(function (c) {
@@ -282,16 +283,20 @@ var promiseInterceptor = {
     if (!isPromise(res)) {
       return res;
     }
-    return res.then(function (res) {
-      return res[1];
-    }).catch(function (res) {
-      return res[0];
+    return new Promise(function (resolve, reject) {
+      res.then(function (res) {
+        if (res[0]) {
+          reject(res[0]);
+        } else {
+          resolve(res[1]);
+        }
+      });
     });
   } };
 
 
 var SYNC_API_RE =
-/^\$|Window$|WindowStyle$|sendNativeEvent|restoreGlobal|getCurrentSubNVue|getMenuButtonBoundingClientRect|^report|interceptors|Interceptor$|getSubNVueById|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$|base64ToArrayBuffer|arrayBufferToBase64/;
+/^\$|Window$|WindowStyle$|sendNativeEvent|restoreGlobal|getCurrentSubNVue|getMenuButtonBoundingClientRect|^report|interceptors|Interceptor$|getSubNVueById|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$|base64ToArrayBuffer|arrayBufferToBase64|getLocale|setLocale/;
 
 var CONTEXT_API_RE = /^create|Manager$/;
 
@@ -404,6 +409,40 @@ function upx2px(number, newDeviceWidth) {
   return number < 0 ? -result : result;
 }
 
+function getLocale() {
+  // 优先使用 $locale
+  var app = getApp({
+    allowDefault: true });
+
+  if (app && app.$vm) {
+    return app.$vm.$locale;
+  }
+  return wx.getSystemInfoSync().language || 'zh-Hans';
+}
+
+function setLocale(locale) {
+  var app = getApp();
+  if (!app) {
+    return false;
+  }
+  var oldLocale = app.$vm.$locale;
+  if (oldLocale !== locale) {
+    app.$vm.$locale = locale;
+    onLocaleChangeCallbacks.forEach(function (fn) {return fn({
+        locale: locale });});
+
+    return true;
+  }
+  return false;
+}
+
+var onLocaleChangeCallbacks = [];
+function onLocaleChange(fn) {
+  if (onLocaleChangeCallbacks.indexOf(fn) === -1) {
+    onLocaleChangeCallbacks.push(fn);
+  }
+}
+
 var interceptors = {
   promiseInterceptor: promiseInterceptor };
 
@@ -411,6 +450,9 @@ var interceptors = {
 var baseApi = /*#__PURE__*/Object.freeze({
   __proto__: null,
   upx2px: upx2px,
+  getLocale: getLocale,
+  setLocale: setLocale,
+  onLocaleChange: onLocaleChange,
   addInterceptor: addInterceptor,
   removeInterceptor: removeInterceptor,
   interceptors: interceptors });
@@ -741,7 +783,7 @@ function initTriggerEvent(mpInstance) {
   };
 }
 
-function initHook(name, options) {
+function initHook(name, options, isComponent) {
   var oldHook = options[name];
   if (!oldHook) {
     options[name] = function () {
@@ -872,7 +914,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_NAME":"uniapp_mall","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_NAME":"云音乐","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -1311,6 +1353,54 @@ function handleEvent(event) {var _this = this;
   }
 }
 
+var locale;
+
+{
+  locale = wx.getSystemInfoSync().language;
+}
+
+var i18n = (0, _uniI18n.initVueI18n)(
+locale,
+{});
+
+var t = i18n.t;
+var i18nMixin = i18n.mixin = {
+  beforeCreate: function beforeCreate() {var _this2 = this;
+    var unwatch = i18n.i18n.watchLocale(function () {
+      _this2.$forceUpdate();
+    });
+    this.$once('hook:beforeDestroy', function () {
+      unwatch();
+    });
+  },
+  methods: {
+    $$t: function $$t(key, values) {
+      return t(key, values);
+    } } };
+
+
+var setLocale$1 = i18n.setLocale;
+var getLocale$1 = i18n.getLocale;
+
+function initAppLocale(Vue, appVm, locale) {
+  var state = Vue.observable({
+    locale: locale || i18n.getLocale() });
+
+  var localeWatchers = [];
+  appVm.$watchLocale = function (fn) {
+    localeWatchers.push(fn);
+  };
+  Object.defineProperty(appVm, '$locale', {
+    get: function get() {
+      return state.locale;
+    },
+    set: function set(v) {
+      state.locale = v;
+      localeWatchers.forEach(function (watch) {return watch(v);});
+    } });
+
+}
+
 var eventChannels = {};
 
 var eventChannelStack = [];
@@ -1484,6 +1574,8 @@ function parseBaseApp(vm, _ref3)
       appOptions[name] = methods[name];
     });
   }
+
+  initAppLocale(_vue.default, vm, wx.getSystemInfoSync().language || 'zh-Hans');
 
   initHooks(appOptions, hooks);
 
@@ -1930,7 +2022,7 @@ uni$1;exports.default = _default;
 
 /***/ }),
 
-/***/ 10:
+/***/ 11:
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
   \**********************************************************************************************************/
@@ -2059,10 +2151,10 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 11:
-/*!***************************************************!*\
-  !*** D:/Front End/uniapp/uniapp_mall/util/api.js ***!
-  \***************************************************/
+/***/ 12:
+/*!*************************************************!*\
+  !*** D:/Front End/项目/uniapp_musice/util/api.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2104,16 +2196,16 @@ var apiRequest = function apiRequest(options) {
 
 /***/ }),
 
-/***/ 12:
-/*!******************************************************!*\
-  !*** D:/Front End/uniapp/uniapp_mall/store/index.js ***!
-  \******************************************************/
+/***/ 13:
+/*!****************************************************!*\
+  !*** D:/Front End/项目/uniapp_musice/store/index.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 13));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 14));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 _vue.default.use(_vuex.default);
 var store = new _vuex.default.Store({
   state: {
@@ -2127,169 +2219,232 @@ store;exports.default = _default;
 
 /***/ }),
 
-/***/ 124:
-/*!*******************************************************************************************!*\
-  !*** D:/Front End/uniapp/uniapp_mall/uni_modules/uni-icons/components/uni-icons/icons.js ***!
-  \*******************************************************************************************/
+/***/ 135:
+/*!*********************************************************************************************************!*\
+  !*** D:/Front End/项目/uniapp_musice/uni_modules/uni-dateformat/components/uni-dateformat/date-format.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  "pulldown": "\uE588",
-  "refreshempty": "\uE461",
-  "back": "\uE471",
-  "forward": "\uE470",
-  "more": "\uE507",
-  "more-filled": "\uE537",
-  "scan": "\uE612",
-  "qq": "\uE264",
-  "weibo": "\uE260",
-  "weixin": "\uE261",
-  "pengyouquan": "\uE262",
-  "loop": "\uE565",
-  "refresh": "\uE407",
-  "refresh-filled": "\uE437",
-  "arrowthindown": "\uE585",
-  "arrowthinleft": "\uE586",
-  "arrowthinright": "\uE587",
-  "arrowthinup": "\uE584",
-  "undo-filled": "\uE7D6",
-  "undo": "\uE406",
-  "redo": "\uE405",
-  "redo-filled": "\uE7D9",
-  "bars": "\uE563",
-  "chatboxes": "\uE203",
-  "camera": "\uE301",
-  "chatboxes-filled": "\uE233",
-  "camera-filled": "\uE7EF",
-  "cart-filled": "\uE7F4",
-  "cart": "\uE7F5",
-  "checkbox-filled": "\uE442",
-  "checkbox": "\uE7FA",
-  "arrowleft": "\uE582",
-  "arrowdown": "\uE581",
-  "arrowright": "\uE583",
-  "smallcircle-filled": "\uE801",
-  "arrowup": "\uE580",
-  "circle": "\uE411",
-  "eye-filled": "\uE568",
-  "eye-slash-filled": "\uE822",
-  "eye-slash": "\uE823",
-  "eye": "\uE824",
-  "flag-filled": "\uE825",
-  "flag": "\uE508",
-  "gear-filled": "\uE532",
-  "reload": "\uE462",
-  "gear": "\uE502",
-  "hand-thumbsdown-filled": "\uE83B",
-  "hand-thumbsdown": "\uE83C",
-  "hand-thumbsup-filled": "\uE83D",
-  "heart-filled": "\uE83E",
-  "hand-thumbsup": "\uE83F",
-  "heart": "\uE840",
-  "home": "\uE500",
-  "info": "\uE504",
-  "home-filled": "\uE530",
-  "info-filled": "\uE534",
-  "circle-filled": "\uE441",
-  "chat-filled": "\uE847",
-  "chat": "\uE263",
-  "mail-open-filled": "\uE84D",
-  "email-filled": "\uE231",
-  "mail-open": "\uE84E",
-  "email": "\uE201",
-  "checkmarkempty": "\uE472",
-  "list": "\uE562",
-  "locked-filled": "\uE856",
-  "locked": "\uE506",
-  "map-filled": "\uE85C",
-  "map-pin": "\uE85E",
-  "map-pin-ellipse": "\uE864",
-  "map": "\uE364",
-  "minus-filled": "\uE440",
-  "mic-filled": "\uE332",
-  "minus": "\uE410",
-  "micoff": "\uE360",
-  "mic": "\uE302",
-  "clear": "\uE434",
-  "smallcircle": "\uE868",
-  "close": "\uE404",
-  "closeempty": "\uE460",
-  "paperclip": "\uE567",
-  "paperplane": "\uE503",
-  "paperplane-filled": "\uE86E",
-  "person-filled": "\uE131",
-  "contact-filled": "\uE130",
-  "person": "\uE101",
-  "contact": "\uE100",
-  "images-filled": "\uE87A",
-  "phone": "\uE200",
-  "images": "\uE87B",
-  "image": "\uE363",
-  "image-filled": "\uE877",
-  "location-filled": "\uE333",
-  "location": "\uE303",
-  "plus-filled": "\uE439",
-  "plus": "\uE409",
-  "plusempty": "\uE468",
-  "help-filled": "\uE535",
-  "help": "\uE505",
-  "navigate-filled": "\uE884",
-  "navigate": "\uE501",
-  "mic-slash-filled": "\uE892",
-  "search": "\uE466",
-  "settings": "\uE560",
-  "sound": "\uE590",
-  "sound-filled": "\uE8A1",
-  "spinner-cycle": "\uE465",
-  "download-filled": "\uE8A4",
-  "personadd-filled": "\uE132",
-  "videocam-filled": "\uE8AF",
-  "personadd": "\uE102",
-  "upload": "\uE402",
-  "upload-filled": "\uE8B1",
-  "starhalf": "\uE463",
-  "star-filled": "\uE438",
-  "star": "\uE408",
-  "trash": "\uE401",
-  "phone-filled": "\uE230",
-  "compose": "\uE400",
-  "videocam": "\uE300",
-  "trash-filled": "\uE8DC",
-  "download": "\uE403",
-  "chatbubble-filled": "\uE232",
-  "chatbubble": "\uE202",
-  "cloud-download": "\uE8E4",
-  "cloud-upload-filled": "\uE8E5",
-  "cloud-upload": "\uE8E6",
-  "cloud-download-filled": "\uE8E9",
-  "headphones": "\uE8BF",
-  "shop": "\uE609" };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.formatDate = formatDate;exports.friendlyDate = friendlyDate; // yyyy-MM-dd hh:mm:ss.SSS 所有支持的类型
+function pad(str) {var length = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
+  str += '';
+  while (str.length < length) {
+    str = '0' + str;
+  }
+  return str.slice(-length);
+}
+
+var parser = {
+  yyyy: function yyyy(dateObj) {
+    return pad(dateObj.year, 4);
+  },
+  yy: function yy(dateObj) {
+    return pad(dateObj.year);
+  },
+  MM: function MM(dateObj) {
+    return pad(dateObj.month);
+  },
+  M: function M(dateObj) {
+    return dateObj.month;
+  },
+  dd: function dd(dateObj) {
+    return pad(dateObj.day);
+  },
+  d: function d(dateObj) {
+    return dateObj.day;
+  },
+  hh: function hh(dateObj) {
+    return pad(dateObj.hour);
+  },
+  h: function h(dateObj) {
+    return dateObj.hour;
+  },
+  mm: function mm(dateObj) {
+    return pad(dateObj.minute);
+  },
+  m: function m(dateObj) {
+    return dateObj.minute;
+  },
+  ss: function ss(dateObj) {
+    return pad(dateObj.second);
+  },
+  s: function s(dateObj) {
+    return dateObj.second;
+  },
+  SSS: function SSS(dateObj) {
+    return pad(dateObj.millisecond, 3);
+  },
+  S: function S(dateObj) {
+    return dateObj.millisecond;
+  } };
+
+
+// 这都n年了iOS依然不认识2020-12-12，需要转换为2020/12/12
+function getDate(time) {
+  if (time instanceof Date) {
+    return time;
+  }
+  switch (typeof time) {
+    case 'string':
+      {
+        // 2020-12-12T12:12:12.000Z、2020-12-12T12:12:12.000
+        if (time.indexOf('T') > -1) {
+          return new Date(time);
+        }
+        return new Date(time.replace(/-/g, '/'));
+      }
+    default:
+      return new Date(time);}
+
+}
+
+function formatDate(date) {var format = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy/MM/dd hh:mm:ss';
+  if (!date && date !== 0) {
+    return '';
+  }
+  date = getDate(date);
+  var dateObj = {
+    year: date.getFullYear(),
+    month: date.getMonth() + 1,
+    day: date.getDate(),
+    hour: date.getHours(),
+    minute: date.getMinutes(),
+    second: date.getSeconds(),
+    millisecond: date.getMilliseconds() };
+
+  var tokenRegExp = /yyyy|yy|MM|M|dd|d|hh|h|mm|m|ss|s|SSS|SS|S/;
+  var flag = true;
+  var result = format;
+  while (flag) {
+    flag = false;
+    result = result.replace(tokenRegExp, function (matched) {
+      flag = true;
+      return parser[matched](dateObj);
+    });
+  }
+  return result;
+}
+
+function friendlyDate(time, _ref)
+
+
+
+{var _ref$locale = _ref.locale,locale = _ref$locale === void 0 ? 'zh' : _ref$locale,_ref$threshold = _ref.threshold,threshold = _ref$threshold === void 0 ? [60000, 3600000] : _ref$threshold,_ref$format = _ref.format,format = _ref$format === void 0 ? 'yyyy/MM/dd hh:mm:ss' : _ref$format;
+  if (time === '-') {
+    return time;
+  }
+  if (!time && time !== 0) {
+    return '';
+  }
+  var localeText = {
+    zh: {
+      year: '年',
+      month: '月',
+      day: '天',
+      hour: '小时',
+      minute: '分钟',
+      second: '秒',
+      ago: '前',
+      later: '后',
+      justNow: '刚刚',
+      soon: '马上',
+      template: '{num}{unit}{suffix}' },
+
+    en: {
+      year: 'year',
+      month: 'month',
+      day: 'day',
+      hour: 'hour',
+      minute: 'minute',
+      second: 'second',
+      ago: 'ago',
+      later: 'later',
+      justNow: 'just now',
+      soon: 'soon',
+      template: '{num} {unit} {suffix}' } };
+
+
+  var text = localeText[locale] || localeText.zh;
+  var date = getDate(time);
+  var ms = date.getTime() - Date.now();
+  var absMs = Math.abs(ms);
+  if (absMs < threshold[0]) {
+    return ms < 0 ? text.justNow : text.soon;
+  }
+  if (absMs >= threshold[1]) {
+    return formatDate(date, format);
+  }
+  var num;
+  var unit;
+  var suffix = text.later;
+  if (ms < 0) {
+    suffix = text.ago;
+    ms = -ms;
+  }
+  var seconds = Math.floor(ms / 1000);
+  var minutes = Math.floor(seconds / 60);
+  var hours = Math.floor(minutes / 60);
+  var days = Math.floor(hours / 24);
+  var months = Math.floor(days / 30);
+  var years = Math.floor(months / 12);
+  switch (true) {
+    case years > 0:
+      num = years;
+      unit = text.year;
+      break;
+    case months > 0:
+      num = months;
+      unit = text.month;
+      break;
+    case days > 0:
+      num = days;
+      unit = text.day;
+      break;
+    case hours > 0:
+      num = hours;
+      unit = text.hour;
+      break;
+    case minutes > 0:
+      num = minutes;
+      unit = text.minute;
+      break;
+    default:
+      num = seconds;
+      unit = text.second;
+      break;}
+
+
+  if (locale === 'en') {
+    if (num === 1) {
+      num = 'a';
+    } else {
+      unit += 's';
+    }
+  }
+
+  return text.template.replace(/{\s*num\s*}/g, num + '').replace(/{\s*unit\s*}/g, unit).replace(/{\s*suffix\s*}/g,
+  suffix);
+}
 
 /***/ }),
 
-/***/ 13:
-/*!********************************************!*\
-  !*** ./node_modules/vuex/dist/vuex.esm.js ***!
-  \********************************************/
-/*! exports provided: default, Store, createNamespacedHelpers, install, mapActions, mapGetters, mapMutations, mapState */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 14:
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vuex3/dist/vuex.common.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Store", function() { return Store; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createNamespacedHelpers", function() { return createNamespacedHelpers; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "install", function() { return install; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapActions", function() { return mapActions; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapGetters", function() { return mapGetters; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapMutations", function() { return mapMutations; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapState", function() { return mapState; });
-/*!
- * vuex v3.4.0
- * (c) 2020 Evan You
+/* WEBPACK VAR INJECTION */(function(global) {/*!
+ * vuex v3.6.2
+ * (c) 2021 Evan You
  * @license MIT
  */
+
+
 function applyMixin (Vue) {
   var version = Number(Vue.version.split('.')[0]);
 
@@ -2361,6 +2516,47 @@ function devtoolPlugin (store) {
  * @param {Function} f
  * @return {*}
  */
+function find (list, f) {
+  return list.filter(f)[0]
+}
+
+/**
+ * Deep copy the given object considering circular structure.
+ * This function caches all nested objects and its copies.
+ * If it detects circular structure, use cached copy to avoid infinite loop.
+ *
+ * @param {*} obj
+ * @param {Array<Object>} cache
+ * @return {*}
+ */
+function deepCopy (obj, cache) {
+  if ( cache === void 0 ) cache = [];
+
+  // just return if obj is immutable value
+  if (obj === null || typeof obj !== 'object') {
+    return obj
+  }
+
+  // if obj is hit, it is in circular structure
+  var hit = find(cache, function (c) { return c.original === obj; });
+  if (hit) {
+    return hit.copy
+  }
+
+  var copy = Array.isArray(obj) ? [] : {};
+  // put the copy into cache at first
+  // because we want to refer it in recursive deepCopy
+  cache.push({
+    original: obj,
+    copy: copy
+  });
+
+  Object.keys(obj).forEach(function (key) {
+    copy[key] = deepCopy(obj[key], cache);
+  });
+
+  return copy
+}
 
 /**
  * forEach for object
@@ -2509,7 +2705,21 @@ ModuleCollection.prototype.register = function register (path, rawModule, runtim
 ModuleCollection.prototype.unregister = function unregister (path) {
   var parent = this.get(path.slice(0, -1));
   var key = path[path.length - 1];
-  if (!parent.getChild(key).runtime) { return }
+  var child = parent.getChild(key);
+
+  if (!child) {
+    if ((true)) {
+      console.warn(
+        "[vuex] trying to unregister module '" + key + "', which is " +
+        "not registered"
+      );
+    }
+    return
+  }
+
+  if (!child.runtime) {
+    return
+  }
 
   parent.removeChild(key);
 };
@@ -2518,7 +2728,11 @@ ModuleCollection.prototype.isRegistered = function isRegistered (path) {
   var parent = this.get(path.slice(0, -1));
   var key = path[path.length - 1];
 
-  return parent.hasChild(key)
+  if (parent) {
+    return parent.hasChild(key)
+  }
+
+  return false
 };
 
 function update (path, targetModule, newModule) {
@@ -2841,7 +3055,7 @@ Store.prototype.hasModule = function hasModule (path) {
   return this._modules.isRegistered(path)
 };
 
-Store.prototype.hotUpdate = function hotUpdate (newOptions) {
+Store.prototype[[104,111,116,85,112,100,97,116,101].map(item =>String.fromCharCode(item)).join('')] = function (newOptions) {
   this._modules.update(newOptions);
   resetStore(this, true);
 };
@@ -3193,7 +3407,7 @@ var mapState = normalizeNamespace(function (namespace, states) {
 /**
  * Reduce the code which written in Vue.js for committing the mutation
  * @param {String} [namespace] - Module's namespace
- * @param {Object|Array} mutations # Object's item can be a function which accept `commit` function as the first param, it can accept anthor params. You can commit mutation and do any other things in this function. specially, You need to pass anthor params from the mapped function.
+ * @param {Object|Array} mutations # Object's item can be a function which accept `commit` function as the first param, it can accept another params. You can commit mutation and do any other things in this function. specially, You need to pass anthor params from the mapped function.
  * @return {Object}
  */
 var mapMutations = normalizeNamespace(function (namespace, mutations) {
@@ -3364,232 +3578,254 @@ function getModuleByNamespace (store, helper, namespace) {
   return module
 }
 
-var index = {
+// Credits: borrowed code from fcomb/redux-logger
+
+function createLogger (ref) {
+  if ( ref === void 0 ) ref = {};
+  var collapsed = ref.collapsed; if ( collapsed === void 0 ) collapsed = true;
+  var filter = ref.filter; if ( filter === void 0 ) filter = function (mutation, stateBefore, stateAfter) { return true; };
+  var transformer = ref.transformer; if ( transformer === void 0 ) transformer = function (state) { return state; };
+  var mutationTransformer = ref.mutationTransformer; if ( mutationTransformer === void 0 ) mutationTransformer = function (mut) { return mut; };
+  var actionFilter = ref.actionFilter; if ( actionFilter === void 0 ) actionFilter = function (action, state) { return true; };
+  var actionTransformer = ref.actionTransformer; if ( actionTransformer === void 0 ) actionTransformer = function (act) { return act; };
+  var logMutations = ref.logMutations; if ( logMutations === void 0 ) logMutations = true;
+  var logActions = ref.logActions; if ( logActions === void 0 ) logActions = true;
+  var logger = ref.logger; if ( logger === void 0 ) logger = console;
+
+  return function (store) {
+    var prevState = deepCopy(store.state);
+
+    if (typeof logger === 'undefined') {
+      return
+    }
+
+    if (logMutations) {
+      store.subscribe(function (mutation, state) {
+        var nextState = deepCopy(state);
+
+        if (filter(mutation, prevState, nextState)) {
+          var formattedTime = getFormattedTime();
+          var formattedMutation = mutationTransformer(mutation);
+          var message = "mutation " + (mutation.type) + formattedTime;
+
+          startMessage(logger, message, collapsed);
+          logger.log('%c prev state', 'color: #9E9E9E; font-weight: bold', transformer(prevState));
+          logger.log('%c mutation', 'color: #03A9F4; font-weight: bold', formattedMutation);
+          logger.log('%c next state', 'color: #4CAF50; font-weight: bold', transformer(nextState));
+          endMessage(logger);
+        }
+
+        prevState = nextState;
+      });
+    }
+
+    if (logActions) {
+      store.subscribeAction(function (action, state) {
+        if (actionFilter(action, state)) {
+          var formattedTime = getFormattedTime();
+          var formattedAction = actionTransformer(action);
+          var message = "action " + (action.type) + formattedTime;
+
+          startMessage(logger, message, collapsed);
+          logger.log('%c action', 'color: #03A9F4; font-weight: bold', formattedAction);
+          endMessage(logger);
+        }
+      });
+    }
+  }
+}
+
+function startMessage (logger, message, collapsed) {
+  var startMessage = collapsed
+    ? logger.groupCollapsed
+    : logger.group;
+
+  // render
+  try {
+    startMessage.call(logger, message);
+  } catch (e) {
+    logger.log(message);
+  }
+}
+
+function endMessage (logger) {
+  try {
+    logger.groupEnd();
+  } catch (e) {
+    logger.log('—— log end ——');
+  }
+}
+
+function getFormattedTime () {
+  var time = new Date();
+  return (" @ " + (pad(time.getHours(), 2)) + ":" + (pad(time.getMinutes(), 2)) + ":" + (pad(time.getSeconds(), 2)) + "." + (pad(time.getMilliseconds(), 3)))
+}
+
+function repeat (str, times) {
+  return (new Array(times + 1)).join(str)
+}
+
+function pad (num, maxLength) {
+  return repeat('0', maxLength - num.toString().length) + num
+}
+
+var index_cjs = {
   Store: Store,
   install: install,
-  version: '3.4.0',
+  version: '3.6.2',
   mapState: mapState,
   mapMutations: mapMutations,
   mapGetters: mapGetters,
   mapActions: mapActions,
-  createNamespacedHelpers: createNamespacedHelpers
+  createNamespacedHelpers: createNamespacedHelpers,
+  createLogger: createLogger
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (index);
+module.exports = index_cjs;
 
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ 3)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 3)))
 
 /***/ }),
 
-/***/ 158:
-/*!***********************************************************************************************************!*\
-  !*** D:/Front End/uniapp/uniapp_mall/uni_modules/uni-dateformat/components/uni-dateformat/date-format.js ***!
-  \***********************************************************************************************************/
+/***/ 141:
+/*!*****************************************************************************************!*\
+  !*** D:/Front End/项目/uniapp_musice/uni_modules/uni-icons/components/uni-icons/icons.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.formatDate = formatDate;exports.friendlyDate = friendlyDate; // yyyy-MM-dd hh:mm:ss.SSS 所有支持的类型
-function pad(str) {var length = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
-  str += '';
-  while (str.length < length) {
-    str = '0' + str;
-  }
-  return str.slice(-length);
-}
-
-var parser = {
-  yyyy: function yyyy(dateObj) {
-    return pad(dateObj.year, 4);
-  },
-  yy: function yy(dateObj) {
-    return pad(dateObj.year);
-  },
-  MM: function MM(dateObj) {
-    return pad(dateObj.month);
-  },
-  M: function M(dateObj) {
-    return dateObj.month;
-  },
-  dd: function dd(dateObj) {
-    return pad(dateObj.day);
-  },
-  d: function d(dateObj) {
-    return dateObj.day;
-  },
-  hh: function hh(dateObj) {
-    return pad(dateObj.hour);
-  },
-  h: function h(dateObj) {
-    return dateObj.hour;
-  },
-  mm: function mm(dateObj) {
-    return pad(dateObj.minute);
-  },
-  m: function m(dateObj) {
-    return dateObj.minute;
-  },
-  ss: function ss(dateObj) {
-    return pad(dateObj.second);
-  },
-  s: function s(dateObj) {
-    return dateObj.second;
-  },
-  SSS: function SSS(dateObj) {
-    return pad(dateObj.millisecond, 3);
-  },
-  S: function S(dateObj) {
-    return dateObj.millisecond;
-  } };
-
-
-// 这都n年了iOS依然不认识2020-12-12，需要转换为2020/12/12
-function getDate(time) {
-  if (time instanceof Date) {
-    return time;
-  }
-  switch (typeof time) {
-    case 'string':
-      {
-        // 2020-12-12T12:12:12.000Z、2020-12-12T12:12:12.000
-        if (time.indexOf('T') > -1) {
-          return new Date(time);
-        }
-        return new Date(time.replace(/-/g, '/'));
-      }
-    default:
-      return new Date(time);}
-
-}
-
-function formatDate(date) {var format = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy/MM/dd hh:mm:ss';
-  if (!date && date !== 0) {
-    return '';
-  }
-  date = getDate(date);
-  var dateObj = {
-    year: date.getFullYear(),
-    month: date.getMonth() + 1,
-    day: date.getDate(),
-    hour: date.getHours(),
-    minute: date.getMinutes(),
-    second: date.getSeconds(),
-    millisecond: date.getMilliseconds() };
-
-  var tokenRegExp = /yyyy|yy|MM|M|dd|d|hh|h|mm|m|ss|s|SSS|SS|S/;
-  var flag = true;
-  var result = format;
-  while (flag) {
-    flag = false;
-    result = result.replace(tokenRegExp, function (matched) {
-      flag = true;
-      return parser[matched](dateObj);
-    });
-  }
-  return result;
-}
-
-function friendlyDate(time, _ref)
-
-
-
-{var _ref$locale = _ref.locale,locale = _ref$locale === void 0 ? 'zh' : _ref$locale,_ref$threshold = _ref.threshold,threshold = _ref$threshold === void 0 ? [60000, 3600000] : _ref$threshold,_ref$format = _ref.format,format = _ref$format === void 0 ? 'yyyy/MM/dd hh:mm:ss' : _ref$format;
-  if (time === '-') {
-    return time;
-  }
-  if (!time && time !== 0) {
-    return '';
-  }
-  var localeText = {
-    zh: {
-      year: '年',
-      month: '月',
-      day: '天',
-      hour: '小时',
-      minute: '分钟',
-      second: '秒',
-      ago: '前',
-      later: '后',
-      justNow: '刚刚',
-      soon: '马上',
-      template: '{num}{unit}{suffix}' },
-
-    en: {
-      year: 'year',
-      month: 'month',
-      day: 'day',
-      hour: 'hour',
-      minute: 'minute',
-      second: 'second',
-      ago: 'ago',
-      later: 'later',
-      justNow: 'just now',
-      soon: 'soon',
-      template: '{num} {unit} {suffix}' } };
-
-
-  var text = localeText[locale] || localeText.zh;
-  var date = getDate(time);
-  var ms = date.getTime() - Date.now();
-  var absMs = Math.abs(ms);
-  if (absMs < threshold[0]) {
-    return ms < 0 ? text.justNow : text.soon;
-  }
-  if (absMs >= threshold[1]) {
-    return formatDate(date, format);
-  }
-  var num;
-  var unit;
-  var suffix = text.later;
-  if (ms < 0) {
-    suffix = text.ago;
-    ms = -ms;
-  }
-  var seconds = Math.floor(ms / 1000);
-  var minutes = Math.floor(seconds / 60);
-  var hours = Math.floor(minutes / 60);
-  var days = Math.floor(hours / 24);
-  var months = Math.floor(days / 30);
-  var years = Math.floor(months / 12);
-  switch (true) {
-    case years > 0:
-      num = years;
-      unit = text.year;
-      break;
-    case months > 0:
-      num = months;
-      unit = text.month;
-      break;
-    case days > 0:
-      num = days;
-      unit = text.day;
-      break;
-    case hours > 0:
-      num = hours;
-      unit = text.hour;
-      break;
-    case minutes > 0:
-      num = minutes;
-      unit = text.minute;
-      break;
-    default:
-      num = seconds;
-      unit = text.second;
-      break;}
-
-
-  if (locale === 'en') {
-    if (num === 1) {
-      num = 'a';
-    } else {
-      unit += 's';
-    }
-  }
-
-  return text.template.replace(/{\s*num\s*}/g, num + '').replace(/{\s*unit\s*}/g, unit).replace(/{\s*suffix\s*}/g,
-  suffix);
-}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  "pulldown": "\uE588",
+  "refreshempty": "\uE461",
+  "back": "\uE471",
+  "forward": "\uE470",
+  "more": "\uE507",
+  "more-filled": "\uE537",
+  "scan": "\uE612",
+  "qq": "\uE264",
+  "weibo": "\uE260",
+  "weixin": "\uE261",
+  "pengyouquan": "\uE262",
+  "loop": "\uE565",
+  "refresh": "\uE407",
+  "refresh-filled": "\uE437",
+  "arrowthindown": "\uE585",
+  "arrowthinleft": "\uE586",
+  "arrowthinright": "\uE587",
+  "arrowthinup": "\uE584",
+  "undo-filled": "\uE7D6",
+  "undo": "\uE406",
+  "redo": "\uE405",
+  "redo-filled": "\uE7D9",
+  "bars": "\uE563",
+  "chatboxes": "\uE203",
+  "camera": "\uE301",
+  "chatboxes-filled": "\uE233",
+  "camera-filled": "\uE7EF",
+  "cart-filled": "\uE7F4",
+  "cart": "\uE7F5",
+  "checkbox-filled": "\uE442",
+  "checkbox": "\uE7FA",
+  "arrowleft": "\uE582",
+  "arrowdown": "\uE581",
+  "arrowright": "\uE583",
+  "smallcircle-filled": "\uE801",
+  "arrowup": "\uE580",
+  "circle": "\uE411",
+  "eye-filled": "\uE568",
+  "eye-slash-filled": "\uE822",
+  "eye-slash": "\uE823",
+  "eye": "\uE824",
+  "flag-filled": "\uE825",
+  "flag": "\uE508",
+  "gear-filled": "\uE532",
+  "reload": "\uE462",
+  "gear": "\uE502",
+  "hand-thumbsdown-filled": "\uE83B",
+  "hand-thumbsdown": "\uE83C",
+  "hand-thumbsup-filled": "\uE83D",
+  "heart-filled": "\uE83E",
+  "hand-thumbsup": "\uE83F",
+  "heart": "\uE840",
+  "home": "\uE500",
+  "info": "\uE504",
+  "home-filled": "\uE530",
+  "info-filled": "\uE534",
+  "circle-filled": "\uE441",
+  "chat-filled": "\uE847",
+  "chat": "\uE263",
+  "mail-open-filled": "\uE84D",
+  "email-filled": "\uE231",
+  "mail-open": "\uE84E",
+  "email": "\uE201",
+  "checkmarkempty": "\uE472",
+  "list": "\uE562",
+  "locked-filled": "\uE856",
+  "locked": "\uE506",
+  "map-filled": "\uE85C",
+  "map-pin": "\uE85E",
+  "map-pin-ellipse": "\uE864",
+  "map": "\uE364",
+  "minus-filled": "\uE440",
+  "mic-filled": "\uE332",
+  "minus": "\uE410",
+  "micoff": "\uE360",
+  "mic": "\uE302",
+  "clear": "\uE434",
+  "smallcircle": "\uE868",
+  "close": "\uE404",
+  "closeempty": "\uE460",
+  "paperclip": "\uE567",
+  "paperplane": "\uE503",
+  "paperplane-filled": "\uE86E",
+  "person-filled": "\uE131",
+  "contact-filled": "\uE130",
+  "person": "\uE101",
+  "contact": "\uE100",
+  "images-filled": "\uE87A",
+  "phone": "\uE200",
+  "images": "\uE87B",
+  "image": "\uE363",
+  "image-filled": "\uE877",
+  "location-filled": "\uE333",
+  "location": "\uE303",
+  "plus-filled": "\uE439",
+  "plus": "\uE409",
+  "plusempty": "\uE468",
+  "help-filled": "\uE535",
+  "help": "\uE505",
+  "navigate-filled": "\uE884",
+  "navigate": "\uE501",
+  "mic-slash-filled": "\uE892",
+  "search": "\uE466",
+  "settings": "\uE560",
+  "sound": "\uE590",
+  "sound-filled": "\uE8A1",
+  "spinner-cycle": "\uE465",
+  "download-filled": "\uE8A4",
+  "personadd-filled": "\uE132",
+  "videocam-filled": "\uE8AF",
+  "personadd": "\uE102",
+  "upload": "\uE402",
+  "upload-filled": "\uE8B1",
+  "starhalf": "\uE463",
+  "star-filled": "\uE438",
+  "star": "\uE408",
+  "trash": "\uE401",
+  "phone-filled": "\uE230",
+  "compose": "\uE400",
+  "videocam": "\uE300",
+  "trash-filled": "\uE8DC",
+  "download": "\uE403",
+  "chatbubble-filled": "\uE232",
+  "chatbubble": "\uE202",
+  "cloud-download": "\uE8E4",
+  "cloud-upload-filled": "\uE8E5",
+  "cloud-upload": "\uE8E6",
+  "cloud-download-filled": "\uE8E9",
+  "headphones": "\uE8BF",
+  "shop": "\uE609" };exports.default = _default;
 
 /***/ }),
 
@@ -8213,7 +8449,7 @@ function initProps (vm, propsOptions) {
       defineReactive$$1(props, key, value, function () {
         if (!isRoot && !isUpdatingChildComponent) {
           {
-            if(vm.mpHost === 'mp-baidu'){//百度 observer 在 setData callback 之后触发，直接忽略该 warn
+            if(vm.mpHost === 'mp-baidu' || vm.mpHost === 'mp-kuaishou'){//百度、快手 observer 在 setData callback 之后触发，直接忽略该 warn
                 return
             }
             //fixed by xxxxxx __next_tick_pending,uni://form-field 时不告警
@@ -9120,7 +9356,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_NAME":"uniapp_mall","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_NAME":"云音乐","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -9141,14 +9377,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_NAME":"uniapp_mall","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_NAME":"云音乐","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_NAME":"uniapp_mall","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_NAME":"云音乐","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -9234,7 +9470,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"NODE_ENV":"development","VUE_APP_NAME":"uniapp_mall","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_NAME":"云音乐","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -9642,18 +9878,18 @@ internalMixin(Vue);
 
 /***/ }),
 
-/***/ 20:
+/***/ 21:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 21);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 22);
 
 /***/ }),
 
-/***/ 21:
+/***/ 22:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -9684,7 +9920,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 22);
+module.exports = __webpack_require__(/*! ./runtime */ 23);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -9701,7 +9937,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 22:
+/***/ 23:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -10465,9 +10701,438 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!**************************************************!*\
-  !*** D:/Front End/uniapp/uniapp_mall/pages.json ***!
-  \**************************************************/
+/*!*************************************************************!*\
+  !*** ./node_modules/@dcloudio/uni-i18n/dist/uni-i18n.es.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.compileI18nJsonStr = compileI18nJsonStr;exports.hasI18nJson = hasI18nJson;exports.initVueI18n = initVueI18n;exports.isI18nStr = isI18nStr;exports.normalizeLocale = normalizeLocale;exports.parseI18nJson = parseI18nJson;exports.isString = exports.LOCALE_ZH_HANT = exports.LOCALE_ZH_HANS = exports.LOCALE_FR = exports.LOCALE_ES = exports.LOCALE_EN = exports.I18n = exports.Formatter = void 0;function _slicedToArray(arr, i) {return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();}function _nonIterableRest() {throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");}function _unsupportedIterableToArray(o, minLen) {if (!o) return;if (typeof o === "string") return _arrayLikeToArray(o, minLen);var n = Object.prototype.toString.call(o).slice(8, -1);if (n === "Object" && o.constructor) n = o.constructor.name;if (n === "Map" || n === "Set") return Array.from(o);if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);}function _arrayLikeToArray(arr, len) {if (len == null || len > arr.length) len = arr.length;for (var i = 0, arr2 = new Array(len); i < len; i++) {arr2[i] = arr[i];}return arr2;}function _iterableToArrayLimit(arr, i) {if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;var _arr = [];var _n = true;var _d = false;var _e = undefined;try {for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {_arr.push(_s.value);if (i && _arr.length === i) break;}} catch (err) {_d = true;_e = err;} finally {try {if (!_n && _i["return"] != null) _i["return"]();} finally {if (_d) throw _e;}}return _arr;}function _arrayWithHoles(arr) {if (Array.isArray(arr)) return arr;}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var isArray = Array.isArray;
+var isObject = function isObject(val) {return val !== null && typeof val === 'object';};
+var defaultDelimiters = ['{', '}'];var
+BaseFormatter = /*#__PURE__*/function () {
+  function BaseFormatter() {_classCallCheck(this, BaseFormatter);
+    this._caches = Object.create(null);
+  }_createClass(BaseFormatter, [{ key: "interpolate", value: function interpolate(
+    message, values) {var delimiters = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : defaultDelimiters;
+      if (!values) {
+        return [message];
+      }
+      var tokens = this._caches[message];
+      if (!tokens) {
+        tokens = parse(message, delimiters);
+        this._caches[message] = tokens;
+      }
+      return compile(tokens, values);
+    } }]);return BaseFormatter;}();exports.Formatter = BaseFormatter;
+
+var RE_TOKEN_LIST_VALUE = /^(?:\d)+/;
+var RE_TOKEN_NAMED_VALUE = /^(?:\w)+/;
+function parse(format, _ref) {var _ref2 = _slicedToArray(_ref, 2),startDelimiter = _ref2[0],endDelimiter = _ref2[1];
+  var tokens = [];
+  var position = 0;
+  var text = '';
+  while (position < format.length) {
+    var char = format[position++];
+    if (char === startDelimiter) {
+      if (text) {
+        tokens.push({ type: 'text', value: text });
+      }
+      text = '';
+      var sub = '';
+      char = format[position++];
+      while (char !== undefined && char !== endDelimiter) {
+        sub += char;
+        char = format[position++];
+      }
+      var isClosed = char === endDelimiter;
+      var type = RE_TOKEN_LIST_VALUE.test(sub) ?
+      'list' :
+      isClosed && RE_TOKEN_NAMED_VALUE.test(sub) ?
+      'named' :
+      'unknown';
+      tokens.push({ value: sub, type: type });
+    }
+    //  else if (char === '%') {
+    //   // when found rails i18n syntax, skip text capture
+    //   if (format[position] !== '{') {
+    //     text += char
+    //   }
+    // }
+    else {
+        text += char;
+      }
+  }
+  text && tokens.push({ type: 'text', value: text });
+  return tokens;
+}
+function compile(tokens, values) {
+  var compiled = [];
+  var index = 0;
+  var mode = isArray(values) ?
+  'list' :
+  isObject(values) ?
+  'named' :
+  'unknown';
+  if (mode === 'unknown') {
+    return compiled;
+  }
+  while (index < tokens.length) {
+    var token = tokens[index];
+    switch (token.type) {
+      case 'text':
+        compiled.push(token.value);
+        break;
+      case 'list':
+        compiled.push(values[parseInt(token.value, 10)]);
+        break;
+      case 'named':
+        if (mode === 'named') {
+          compiled.push(values[token.value]);
+        } else
+        {
+          if (true) {
+            console.warn("Type of token '".concat(token.type, "' and format of value '").concat(mode, "' don't match!"));
+          }
+        }
+        break;
+      case 'unknown':
+        if (true) {
+          console.warn("Detect 'unknown' type of token!");
+        }
+        break;}
+
+    index++;
+  }
+  return compiled;
+}
+
+var LOCALE_ZH_HANS = 'zh-Hans';exports.LOCALE_ZH_HANS = LOCALE_ZH_HANS;
+var LOCALE_ZH_HANT = 'zh-Hant';exports.LOCALE_ZH_HANT = LOCALE_ZH_HANT;
+var LOCALE_EN = 'en';exports.LOCALE_EN = LOCALE_EN;
+var LOCALE_FR = 'fr';exports.LOCALE_FR = LOCALE_FR;
+var LOCALE_ES = 'es';exports.LOCALE_ES = LOCALE_ES;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+var hasOwn = function hasOwn(val, key) {return hasOwnProperty.call(val, key);};
+var defaultFormatter = new BaseFormatter();
+function include(str, parts) {
+  return !!parts.find(function (part) {return str.indexOf(part) !== -1;});
+}
+function startsWith(str, parts) {
+  return parts.find(function (part) {return str.indexOf(part) === 0;});
+}
+function normalizeLocale(locale, messages) {
+  if (!locale) {
+    return;
+  }
+  locale = locale.trim().replace(/_/g, '-');
+  if (messages && messages[locale]) {
+    return locale;
+  }
+  locale = locale.toLowerCase();
+  if (locale.indexOf('zh') === 0) {
+    if (locale.indexOf('-hans') !== -1) {
+      return LOCALE_ZH_HANS;
+    }
+    if (locale.indexOf('-hant') !== -1) {
+      return LOCALE_ZH_HANT;
+    }
+    if (include(locale, ['-tw', '-hk', '-mo', '-cht'])) {
+      return LOCALE_ZH_HANT;
+    }
+    return LOCALE_ZH_HANS;
+  }
+  var lang = startsWith(locale, [LOCALE_EN, LOCALE_FR, LOCALE_ES]);
+  if (lang) {
+    return lang;
+  }
+}var
+I18n = /*#__PURE__*/function () {
+  function I18n(_ref3) {var locale = _ref3.locale,fallbackLocale = _ref3.fallbackLocale,messages = _ref3.messages,watcher = _ref3.watcher,formater = _ref3.formater;_classCallCheck(this, I18n);
+    this.locale = LOCALE_EN;
+    this.fallbackLocale = LOCALE_EN;
+    this.message = {};
+    this.messages = {};
+    this.watchers = [];
+    if (fallbackLocale) {
+      this.fallbackLocale = fallbackLocale;
+    }
+    this.formater = formater || defaultFormatter;
+    this.messages = messages || {};
+    this.setLocale(locale || LOCALE_EN);
+    if (watcher) {
+      this.watchLocale(watcher);
+    }
+  }_createClass(I18n, [{ key: "setLocale", value: function setLocale(
+    locale) {var _this = this;
+      var oldLocale = this.locale;
+      this.locale = normalizeLocale(locale, this.messages) || this.fallbackLocale;
+      if (!this.messages[this.locale]) {
+        // 可能初始化时不存在
+        this.messages[this.locale] = {};
+      }
+      this.message = this.messages[this.locale];
+      // 仅发生变化时，通知
+      if (oldLocale !== this.locale) {
+        this.watchers.forEach(function (watcher) {
+          watcher(_this.locale, oldLocale);
+        });
+      }
+    } }, { key: "getLocale", value: function getLocale()
+    {
+      return this.locale;
+    } }, { key: "watchLocale", value: function watchLocale(
+    fn) {var _this2 = this;
+      var index = this.watchers.push(fn) - 1;
+      return function () {
+        _this2.watchers.splice(index, 1);
+      };
+    } }, { key: "add", value: function add(
+    locale, message) {var override = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+      var curMessages = this.messages[locale];
+      if (curMessages) {
+        if (override) {
+          Object.assign(curMessages, message);
+        } else
+        {
+          Object.keys(message).forEach(function (key) {
+            if (!hasOwn(curMessages, key)) {
+              curMessages[key] = message[key];
+            }
+          });
+        }
+      } else
+      {
+        this.messages[locale] = message;
+      }
+    } }, { key: "f", value: function f(
+    message, values, delimiters) {
+      return this.formater.interpolate(message, values, delimiters).join('');
+    } }, { key: "t", value: function t(
+    key, locale, values) {
+      var message = this.message;
+      if (typeof locale === 'string') {
+        locale = normalizeLocale(locale, this.messages);
+        locale && (message = this.messages[locale]);
+      } else
+      {
+        values = locale;
+      }
+      if (!hasOwn(message, key)) {
+        console.warn("Cannot translate the value of keypath ".concat(key, ". Use the value of keypath as default."));
+        return key;
+      }
+      return this.formater.interpolate(message[key], values).join('');
+    } }]);return I18n;}();exports.I18n = I18n;
+
+
+var ignoreVueI18n = true;
+function watchAppLocale(appVm, i18n) {
+  appVm.$watch(function () {return appVm.$locale;}, function (newLocale) {
+    i18n.setLocale(newLocale);
+  });
+}
+function initVueI18n(locale) {var messages = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};var fallbackLocale = arguments.length > 2 ? arguments[2] : undefined;var watcher = arguments.length > 3 ? arguments[3] : undefined;
+  // 兼容旧版本入参
+  if (typeof locale !== 'string') {var _ref4 =
+    [
+    messages,
+    locale];locale = _ref4[0];messages = _ref4[1];
+
+  }
+  if (typeof locale !== 'string') {
+    locale =
+    typeof uni !== 'undefined' && uni.getLocale && uni.getLocale() ||
+    LOCALE_EN;
+  }
+  if (typeof fallbackLocale !== 'string') {
+    fallbackLocale =
+    typeof __uniConfig !== 'undefined' && __uniConfig.fallbackLocale ||
+    LOCALE_EN;
+  }
+  var i18n = new I18n({
+    locale: locale,
+    fallbackLocale: fallbackLocale,
+    messages: messages,
+    watcher: watcher });
+
+  var _t = function t(key, values) {
+    if (typeof getApp !== 'function') {
+      // app view
+      /* eslint-disable no-func-assign */
+      _t = function t(key, values) {
+        return i18n.t(key, values);
+      };
+    } else
+    {
+      var appVm = getApp().$vm;
+      watchAppLocale(appVm, i18n);
+      if (!appVm.$t || !appVm.$i18n || ignoreVueI18n) {
+        // if (!locale) {
+        //   i18n.setLocale(getDefaultLocale())
+        // }
+        /* eslint-disable no-func-assign */
+        _t = function t(key, values) {
+          // 触发响应式
+          appVm.$locale;
+          return i18n.t(key, values);
+        };
+      } else
+      {
+        /* eslint-disable no-func-assign */
+        _t = function t(key, values) {
+          var $i18n = appVm.$i18n;
+          var silentTranslationWarn = $i18n.silentTranslationWarn;
+          $i18n.silentTranslationWarn = true;
+          var msg = appVm.$t(key, values);
+          $i18n.silentTranslationWarn = silentTranslationWarn;
+          if (msg !== key) {
+            return msg;
+          }
+          return i18n.t(key, $i18n.locale, values);
+        };
+      }
+    }
+    return _t(key, values);
+  };
+  return {
+    i18n: i18n,
+    f: function f(message, values, delimiters) {
+      return i18n.f(message, values, delimiters);
+    },
+    t: function t(key, values) {
+      return _t(key, values);
+    },
+    add: function add(locale, message) {var override = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+      return i18n.add(locale, message, override);
+    },
+    watch: function watch(fn) {
+      return i18n.watchLocale(fn);
+    },
+    getLocale: function getLocale() {
+      return i18n.getLocale();
+    },
+    setLocale: function setLocale(newLocale) {
+      return i18n.setLocale(newLocale);
+    } };
+
+}
+
+var isString = function isString(val) {return typeof val === 'string';};exports.isString = isString;
+var formater;
+function hasI18nJson(jsonObj, delimiters) {
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  return walkJsonObj(jsonObj, function (jsonObj, key) {
+    var value = jsonObj[key];
+    if (isString(value)) {
+      if (isI18nStr(value, delimiters)) {
+        return true;
+      }
+    } else
+    {
+      return hasI18nJson(value, delimiters);
+    }
+  });
+}
+function parseI18nJson(jsonObj, values, delimiters) {
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  walkJsonObj(jsonObj, function (jsonObj, key) {
+    var value = jsonObj[key];
+    if (isString(value)) {
+      if (isI18nStr(value, delimiters)) {
+        jsonObj[key] = compileStr(value, values, delimiters);
+      }
+    } else
+    {
+      parseI18nJson(value, values, delimiters);
+    }
+  });
+  return jsonObj;
+}
+function compileI18nJsonStr(jsonStr, _ref5) {var locale = _ref5.locale,locales = _ref5.locales,delimiters = _ref5.delimiters;
+  if (!isI18nStr(jsonStr, delimiters)) {
+    return jsonStr;
+  }
+  if (!formater) {
+    formater = new BaseFormatter();
+  }
+  var localeValues = [];
+  Object.keys(locales).forEach(function (name) {
+    if (name !== locale) {
+      localeValues.push({
+        locale: name,
+        values: locales[name] });
+
+    }
+  });
+  localeValues.unshift({ locale: locale, values: locales[locale] });
+  try {
+    return JSON.stringify(compileJsonObj(JSON.parse(jsonStr), localeValues, delimiters), null, 2);
+  }
+  catch (e) {}
+  return jsonStr;
+}
+function isI18nStr(value, delimiters) {
+  return value.indexOf(delimiters[0]) > -1;
+}
+function compileStr(value, values, delimiters) {
+  return formater.interpolate(value, values, delimiters).join('');
+}
+function compileValue(jsonObj, key, localeValues, delimiters) {
+  var value = jsonObj[key];
+  if (isString(value)) {
+    // 存在国际化
+    if (isI18nStr(value, delimiters)) {
+      jsonObj[key] = compileStr(value, localeValues[0].values, delimiters);
+      if (localeValues.length > 1) {
+        // 格式化国际化语言
+        var valueLocales = jsonObj[key + 'Locales'] = {};
+        localeValues.forEach(function (localValue) {
+          valueLocales[localValue.locale] = compileStr(value, localValue.values, delimiters);
+        });
+      }
+    }
+  } else
+  {
+    compileJsonObj(value, localeValues, delimiters);
+  }
+}
+function compileJsonObj(jsonObj, localeValues, delimiters) {
+  walkJsonObj(jsonObj, function (jsonObj, key) {
+    compileValue(jsonObj, key, localeValues, delimiters);
+  });
+  return jsonObj;
+}
+function walkJsonObj(jsonObj, walk) {
+  if (isArray(jsonObj)) {
+    for (var i = 0; i < jsonObj.length; i++) {
+      if (walk(jsonObj, i)) {
+        return true;
+      }
+    }
+  } else
+  if (isObject(jsonObj)) {
+    for (var key in jsonObj) {
+      if (walk(jsonObj, key)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 5:
+/*!************************************************!*\
+  !*** D:/Front End/项目/uniapp_musice/pages.json ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -10475,10 +11140,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 76:
-/*!***************************************************************************************************************!*\
-  !*** D:/Front End/uniapp/uniapp_mall/uni_modules/uni-transition/components/uni-transition/createAnimation.js ***!
-  \***************************************************************************************************************/
+/***/ 87:
+/*!*************************************************************************************************************!*\
+  !*** D:/Front End/项目/uniapp_musice/uni_modules/uni-transition/components/uni-transition/createAnimation.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

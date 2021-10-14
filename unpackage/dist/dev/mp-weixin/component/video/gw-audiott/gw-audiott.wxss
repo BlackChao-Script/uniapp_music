@@ -19,12 +19,8 @@
   height: 120rpx;
 }
 .audio-wrapper.data-v-2f5f73ea {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  align-items: center;
 }
 .audio-number.data-v-2f5f73ea {
   width: 120rpx;
@@ -34,9 +30,7 @@
   text-align: center;
 }
 .audio-slider.data-v-2f5f73ea {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
   margin: 0;
 }
 .iconfont.data-v-2f5f73ea {
@@ -44,15 +38,9 @@
 }
 .audio-control-wrapper.data-v-2f5f73ea {
   margin-top: 20rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .audio-control.data-v-2f5f73ea {
   font-size: 32rpx;
@@ -105,16 +93,12 @@ to {
 }
 .item.data-v-2f5f73ea {
   overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
   margin: 10rpx 20rpx;
 }
 .item .left.data-v-2f5f73ea,
 .item .right.data-v-2f5f73ea {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 .item .left.data-v-2f5f73ea {
   float: left;
@@ -135,15 +119,9 @@ to {
   height: 85rpx;
   background-color: #fae4b8;
   color: #bf7900;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   margin-left: 20rpx;
   overflow: hidden;
@@ -153,15 +131,9 @@ to {
   height: 85rpx;
   background-color: #027cfe;
   color: #FFFFFF;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
   margin-right: 20rpx;
   overflow: hidden;
@@ -175,26 +147,17 @@ to {
   position: absolute;
   left: 0;
   bottom: 30rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .search_result .search_result_warpper.data-v-2f5f73ea {
   width: 45%;
   height: 80rpx;
   background-color: #545454;
   border-radius: 100rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 14rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
 }
 .search_result .search_result_warpper button.data-v-2f5f73ea {
@@ -205,15 +168,9 @@ to {
   border-radius: 100rpx;
   padding: 0;
   line-height: 52rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .search_result .search_result_warpper button.data-v-2f5f73ea::after {
   content: " ";
@@ -221,19 +178,11 @@ to {
   border-radius: 100rpx;
 }
 .search_result .num.data-v-2f5f73ea {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-          flex: 1;
+  flex: 1;
   height: 52rpx;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   color: #d9d8dc;
 }
 
